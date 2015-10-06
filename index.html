@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head lang="en">
-	<title>Start</title>
+	<title>Design Lab</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,6 +11,7 @@
 	<link rel="icon" href="favicon.png"/>
 	<link rel="stylesheet" href="css/normalize.css" />
 	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/font.css" />
 	<link rel="stylesheet" href="css/style.css" />
 
 	<!--[if lt IE 9]>
@@ -19,14 +20,104 @@
 	<![endif]-->
 </head>
 <body>
-	<header class="ba-header">
-
+	<header class="ba-header ba-header_valign">
+		<div class="ba-header__inner ba-header__inner_valign_middle">
+			<div class="ba-container">
+				<a href="#" class="ba-logo" title="Design Lab">
+					<img src="img/logo.svg" alt="Design Lab">
+				</a>
+				<h1 class="ba-header__title">Working <br> with design lab</h1>
+				<p class="ba-header__text">We’ve been helping startups launch and grow their businesses. We help <br> you to fill the gap between development, <br> design and product management.</p>
+				<a href="#" class="ba-btn-scroll">
+					<svg><path d="M11.497,37.001 C5.156,37.001 -0.001,31.837 -0.001,25.490 C-0.001,25.490 -0.001,11.416 -0.001,11.416 C-0.001,5.440 4.612,0.468 10.543,-0.007 C10.543,-0.007 12.451,-0.007 12.451,-0.007 C18.383,0.472 22.996,5.444 22.996,11.416 C22.996,11.416 22.996,25.490 22.996,25.490 C22.996,31.837 17.838,37.001 11.497,37.001 ZM21.088,11.416 C21.088,6.121 16.785,1.815 11.497,1.815 C6.208,1.815 1.906,6.121 1.906,11.416 C1.906,11.416 1.906,25.490 1.906,25.490 C1.906,30.785 6.209,35.091 11.497,35.091 C16.785,35.091 21.088,30.785 21.088,25.490 C21.088,25.490 21.088,11.416 21.088,11.416 ZM11.497,13.075 C10.583,13.075 9.840,12.331 9.840,11.416 C9.840,10.501 10.583,9.757 11.497,9.757 C12.410,9.757 13.154,10.501 13.154,11.416 C13.154,12.331 12.411,13.075 11.497,13.075 Z"/></svg>
+				</a>
+			</div>
+		</div>
 	</header>
 	<main role="main">
+		<section class="ba-section ba-section_about-us ">
+			<div class="ba-container">
+				<div class="ba-box">
+					<h2 class="ba-box__title">About us</h2>
+					<p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are integrated, iterative and agile.</p>
+					<p>Our approach unifies design, development and product management to create exceptional products. We start each project by understanding your business goals, the user’s needs and the product requirements. Then we help translate them into effective and elegant solutions.</p>
+				</div>
+			</div>
+		</section>
 
+		<section class="ba-section ba-section_with-bg ba-section_services">
+			<div class="ba-container">
+				<div class="ba-box">
+					<h2 class="ba-box__title">Services</h2>
+					<p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
+					<p>The outcome of this scoping session is a proposal or high-level statement of work. Based on your requirements, we can provide a complete offering or just the pieces you need.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="ba-section ba-section_what-we-do">
+			<div class="ba-container">
+				<div class="ba-box">
+					<h2 class="ba-box__title">What we do</h2>
+					<img src="img/design.svg" alt="Design">
+					<h3>Design</h3>
+					<p>Our design practice offers a full range of services including branding strategy, interaction and visual design and user experience testing. Throughout your project, our designers create and implement visual designs and workflows, solicit user feedback, and work with you to make sure what gets built is what is needed.</p>
+					<img src="img/development.svg" alt="Development">
+					<h3>Development</h3>
+					<p>All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programing.</p>
+					<img src="img/product-management.svg" alt="Product Management">
+					<h3>Product Management</h3>
+					<p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="ba-section ba-section_portfolio">
+			<div class="ba-grid ba-grid_portfolio">
+				<a href="#" class="ba-project ba-project_width_30p">
+					<img src="img/portfolio/1.jpg" alt="Topworkz">
+					<span class="ba-project__title">Topworkz</span>
+				</a>
+				<a href="#" class="ba-project ba-project_width_2-5">
+					<img src="img/portfolio/2.jpg" alt="Joint">
+					<span class="ba-project__title">Joint</span>
+				</a>
+				<a href="#" class="ba-project ba-project_width_30p">
+					<img src="img/portfolio/3.jpg" alt="Market">
+					<span class="ba-project__title">Market</span>
+				</a>
+			</div>
+			<div class="ba-grid ba-grid_portfolio">
+				<a href="#" class="ba-project ba-project_width_30p">
+					<img src="img/portfolio/4.jpg" alt="Worktop">
+					<span class="ba-project__title">Worktop</span>
+				</a>
+				<a href="#" class="ba-project ba-project_width_2-5">
+					<img src="img/portfolio/5.jpg" alt="Lable">
+					<span class="ba-project__title">Lable</span>
+				</a>
+				<a href="#" class="ba-project ba-project_width_30p">
+					<img src="img/portfolio/6.jpg" alt="Kyiv">
+					<span class="ba-project__title">Kyiv</span>
+				</a>
+			</div>
+		</section>
+
+		<section class="ba-section ba-section_contact-us">
+				<div class="ba-container">
+					<div class="ba-box">
+						<h2 class="ba-box__title ba-box__title_contact-us">Contact Us</h2>
+						<p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. This iterative process allows for changes as business requirements evolve.</p>
+						<a href="#" class="ba-button ba-button_contact-us">Contact Us</a>
+					</div>
+				</div>
+		</section>
 	</main>
 	<footer class="ba-footer">
-
+		<div class="ba-container ba-container_text_center">
+			<a href="#"><img src="img/logo-footer.png" alt="Design Lab"></a>
+			<p>© 2014. All Rights Reserved Ellipsis.com</p>
+		</div>
 	</footer>
 </body>
 </html>

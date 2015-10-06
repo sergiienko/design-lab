@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'LatoBA';
+    src: url('../font/lato-bold-webfont.eot');
+    src: url('../font/lato-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lato-bold-webfont.woff2') format('woff2'),
+         url('../font/lato-bold-webfont.woff') format('woff'),
+         url('../font/lato-bold-webfont.ttf') format('truetype'),
+         url('../font/lato-bold-webfont.svg#latobold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoBA';
+    src: url('../font/lato-light-webfont.eot');
+    src: url('../font/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lato-light-webfont.woff2') format('woff2'),
+         url('../font/lato-light-webfont.woff') format('woff'),
+         url('../font/lato-light-webfont.ttf') format('truetype'),
+         url('../font/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LatoBA';
+    src: url('../font/lato-lightitalic-webfont.eot');
+    src: url('../font/lato-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lato-lightitalic-webfont.woff2') format('woff2'),
+         url('../font/lato-lightitalic-webfont.woff') format('woff'),
+         url('../font/lato-lightitalic-webfont.ttf') format('truetype'),
+         url('../font/lato-lightitalic-webfont.svg#latolight_italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'LatoBA';
+    src: url('../font/lato-regular-webfont.eot');
+    src: url('../font/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/lato-regular-webfont.woff2') format('woff2'),
+         url('../font/lato-regular-webfont.woff') format('woff'),
+         url('../font/lato-regular-webfont.ttf') format('truetype'),
+         url('../font/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
