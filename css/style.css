@@ -166,9 +166,20 @@ textarea {
 	text-transform: uppercase;
 }
 
+.ba-section_what-we-do .ba-box {
+	padding-top: 20px;
+	padding-bottom: 90px;
+}
+
+.ba-section_what-we-do img {
+	margin-top: 110px;
+}
+
 .ba-section_what-we-do p {
 	font-size: 14px;
 	line-height: 1.8;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 /* Box */
